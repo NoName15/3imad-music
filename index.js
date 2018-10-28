@@ -414,7 +414,7 @@ const client2 = new Discord.Client({disableEveryone: true});
 
 const prefix2 = "2";
 client2.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag} !`);
+    console.log(`Logged in as ${client2.user.tag} !`);
     client2.user.setGame(`2help | RO7]`,`www.twitch.tv/v5bz`);
   });
 client2.on('ready', () => {
