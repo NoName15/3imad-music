@@ -27,7 +27,7 @@ const prefix = "1";
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-    client.user.setGame(`1help ` `www.twitch.tv/v5bz`);
+    client.user.setGame(`1help `, `www.twitch.tv/v5bz`);
   });
 client.on('ready', () => {
 var x = client.channels.get("501525740249153547");
